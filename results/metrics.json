@@ -1,0 +1,44 @@
+{
+  "CNN": {
+    "test_accuracy": 0.9262,
+    "macro_f1": 0.9255192422333062,
+    "best_val_accuracy": 0.9358333349227905,
+    "epochs_run": 12,
+    "params": 468394,
+    "train_time_sec": 912.4,
+    "inference_time_sec": 3.06,
+    "per_class_f1": {
+      "T-shirt/top": 0.8843,
+      "Trouser": 0.9869,
+      "Pullover": 0.8935,
+      "Dress": 0.9149,
+      "Coat": 0.8934,
+      "Sandal": 0.9864,
+      "Shirt": 0.7726,
+      "Sneaker": 0.9645,
+      "Bag": 0.99,
+      "Ankle boot": 0.9687
+    }
+  },
+  "BiGRU": {
+    "test_accuracy": 0.89,
+    "macro_f1": 0.8893576701821843,
+    "best_val_accuracy": 0.9021666646003723,
+    "epochs_run": 12,
+    "params": 126922,
+    "train_time_sec": 468.8,
+    "inference_time_sec": 2.1,
+    "per_class_f1": {
+      "T-shirt/top": 0.8328,
+      "Trouser": 0.9769,
+      "Pullover": 0.8167,
+      "Dress": 0.8725,
+      "Coat": 0.8203,
+      "Sandal": 0.9735,
+      "Shirt": 0.7072,
+      "Sneaker": 0.9546,
+      "Bag": 0.974,
+      "Ankle boot": 0.9651
+    }
+  }
+}
